@@ -41,6 +41,7 @@
   "typescript.updateImportsOnFileMove.enabled": "never",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "security.workspace.trust.untrustedFiles": "newWindow",
+  "editor.rulers": [],
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
@@ -62,10 +63,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "editor.rulers": [
-    80,
-    120
-  ],
   "files.exclude": {
     "**\/CVS": true,
     "**\/.hg": true,
