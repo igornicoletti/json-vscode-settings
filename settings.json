@@ -1,0 +1,83 @@
+{
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "window.zoomLevel": -1,
+  "editor.lineHeight": 20,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "git.enableSmartCommit": true,
+  "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "gitlens.codeLens.enabled": false,
+  "scssFormatter.singleQuote": true,
+  "workbench.colorTheme": "Dracula",
+  "terminal.integrated.fontSize": 14,
+  "editor.renderLineHighlight": "none",
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.guides.bracketPairs": "active",
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true,
+  "editor.parameterHints.enabled": false,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "gitlens.codeLens.authors.enabled": false,
+  "terminal.integrated.showExitAlert": false,
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.scrollbar.verticalScrollbarSize": 14,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "gitlens.codeLens.recentChange.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "files.exclude": {
+    "**\/CVS": true,
+    "**\/.hg": true,
+    "**\/.git": true,
+    "**\/.svn": true,
+    "**\/.DS_Store": true
+  },
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".sequelizerc": "javascript"
+  }
+}
