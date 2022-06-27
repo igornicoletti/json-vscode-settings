@@ -3,46 +3,38 @@
   "editor.fontSize": 14,
   "window.zoomLevel": -1,
   "editor.lineHeight": 20,
+  "scm.inputFontSize": 14,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
+  "debug.console.fontSize": 14,
   "git.enableSmartCommit": true,
   "editor.minimap.enabled": false,
   "explorer.confirmDelete": false,
+  "markdown.preview.fontSize": 14,
   "explorer.compactFolders": false,
   "autoimport.useSemiColon": false,
+  "workbench.colorTheme": "Dracula",
   "gitlens.codeLens.enabled": false,
   "scssFormatter.singleQuote": true,
-  "workbench.colorTheme": "Dracula",
+  "editor.guides.bracketPairs": true,
   "terminal.integrated.fontSize": 14,
-  "editor.renderLineHighlight": "none",
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
-  "workbench.iconTheme": "vscode-icons",
-  "editor.guides.bracketPairs": "active",
-  "typescript.suggest.autoImports": true,
-  "javascript.suggest.autoImports": true,
   "editor.parameterHints.enabled": false,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
   "tabnine.experimentalAutoImports": true,
   "workbench.editor.labelFormat": "short",
   "extensions.ignoreRecommendations": true,
-  "gitlens.codeLens.authors.enabled": false,
   "terminal.integrated.showExitAlert": false,
-  "screencastMode.onlyKeyboardShortcuts": true,
-  "editor.semanticHighlighting.enabled": false,
-  "editor.scrollbar.verticalScrollbarSize": 14,
   "liveServer.settings.donotShowInfoMsg": true,
-  "editor.guides.bracketPairsHorizontal": false,
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "editor.scrollbar.verticalScrollbarSize": 14,
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
-  "gitlens.codeLens.recentChange.enabled": false,
-  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairsHorizontal": false,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "terminal.integrated.defaultProfile.linux": "bash",
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "security.workspace.trust.untrustedFiles": "newWindow",
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.rulers": [],
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
@@ -52,16 +44,16 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "[css]": {
-    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  "[prisma]": {
+    "editor.formatOnSave": true
   },
   "[scss]": {
     "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
   },
-  "[typescript]": {
+  "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "[javascript]": {
+  "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "files.exclude": {
@@ -74,8 +66,14 @@
   "files.associations": {
     ".env.*": "dotenv",
     ".prettierrc": "json",
+    "*.css": "tailwindcss",
     ".stylelintrc": "json",
     "*.tsx": "typescriptreact",
     ".sequelizerc": "javascript"
+  },
+  "editor.quickSuggestions": {
+    "other": "on",
+    "strings": true,
+    "comments": "off"
   }
 }
