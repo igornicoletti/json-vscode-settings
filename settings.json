@@ -4,6 +4,7 @@
   "window.zoomLevel": -1,
   "editor.lineHeight": 20,
   "scm.inputFontSize": 14,
+  "git.confirmSync": false,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "debug.console.fontSize": 14,
@@ -14,7 +15,6 @@
   "explorer.compactFolders": false,
   "autoimport.useSemiColon": false,
   "workbench.colorTheme": "Dracula",
-  "gitlens.codeLens.enabled": false,
   "scssFormatter.singleQuote": true,
   "editor.guides.bracketPairs": true,
   "terminal.integrated.fontSize": 14,
@@ -35,6 +35,8 @@
   "editor.guides.bracketPairsHorizontal": false,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "terminal.integrated.defaultProfile.linux": "bash",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
