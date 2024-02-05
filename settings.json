@@ -1,9 +1,9 @@
 {
   "editor.tabSize": 2,
   "editor.fontSize": 14,
-  "editor.lineHeight": 22,
+  "window.zoomLevel": -1,
   "scm.inputFontSize": 14,
-  "window.zoomLevel": -1.25,
+  "editor.lineHeight": 22,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "debug.console.fontSize": 14,
@@ -19,16 +19,15 @@
   "scssFormatter.singleQuote": true,
   "editor.guides.bracketPairs": true,
   "terminal.integrated.fontSize": 14,
+  "explorer.confirmPasteNative": false,
   "explorer.confirmDragAndDrop": false,
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
-  "tabnine.experimentalAutoImports": true,
   "workbench.editor.labelFormat": "short",
   "extensions.ignoreRecommendations": true,
   "workbench.list.defaultFindMode": "filter",
   "terminal.integrated.showExitAlert": false,
   "liveServer.settings.donotShowInfoMsg": true,
-  "screencastMode.onlyKeyboardShortcuts": true,
   "editor.scrollbar.verticalScrollbarSize": 14,
   "gitlens.advanced.repositorySearchDepth": 10,
   "javascript.preferences.quoteStyle": "single",
@@ -37,6 +36,7 @@
   "terminal.integrated.defaultProfile.linux": "zsh",
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
+  "html.completion.attributeDefaultValue": "singlequotes",
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
@@ -44,10 +44,7 @@
     "javascript": "javascriptreact"
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "[prisma]": {
-    "editor.formatOnSave": true
+    "source.fixAll.eslint": "explicit"
   },
   "[scss]": {
     "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
