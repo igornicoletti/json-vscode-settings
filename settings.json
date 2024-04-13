@@ -19,7 +19,7 @@
   },
   "eslint.validate": [
     "javascript",
-    "javascriptreact",
+    "javascriptreact"
   ],
   "workbench.colorTheme": "Dracula",
   "workbench.editor.labelFormat": "short",
