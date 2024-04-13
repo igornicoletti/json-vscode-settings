@@ -1,5 +1,4 @@
 {
-  "window.zoomLevel": -1,
   "editor.tabSize": 2,
   "editor.lineHeight": 1.75,
   "editor.formatOnType": true,
@@ -21,6 +20,8 @@
     "javascript",
     "javascriptreact"
   ],
+  "window.zoomLevel": -1,
+  "explorer.confirmDelete": false,
   "workbench.colorTheme": "Dracula",
   "workbench.editor.labelFormat": "short",
   "workbench.list.defaultFindMode": "filter",
@@ -30,11 +31,11 @@
   "typescript.suggest.autoImports": true,
   "typescript.preferences.quoteStyle": "single",
   "typescript.updateImportsOnFileMove.enabled": "never",
-  "html.completion.attributeDefaultValue": "singlequotes",
-  "terminal.integrated.defaultProfile.linux": "zsh",
   "tabnine.experimentalAutoImports": true,
-  "files.trimTrailingWhitespace": true,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "html.completion.attributeDefaultValue": "singlequotes",
   "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
   "files.associations": {
     "*.css": "tailwindcss",
     "*.tsx": "typescriptreact"
