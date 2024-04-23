@@ -10,30 +10,34 @@
   "editor.stickyScroll.enabled": false,
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": false,
+  "editor.renderLineHighlightOnlyWhenFocus": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.quickSuggestions": {
     "strings": "on"
   },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
+  "window.zoomLevel": -1,
+  "explorer.confirmDelete": false,
+  "git.enableSmartCommit": true,
+  "gitlens.currentLine.enabled": false,
+  "workbench.colorTheme": "Dracula",
+  "workbench.editor.labelFormat": "short",
+  "workbench.list.defaultFindMode": "filter",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.jsxAttributeCompletionStyle": "braces",
+  "typescript.preferences.jsxAttributeCompletionStyle": "braces",
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
   "eslint.validate": [
     "javascript",
     "javascriptreact"
   ],
-  "window.zoomLevel": -1,
-  "explorer.confirmDelete": false,
-  "workbench.colorTheme": "Dracula",
-  "workbench.editor.labelFormat": "short",
-  "workbench.list.defaultFindMode": "filter",
-  "javascript.suggest.autoImports": true,
-  "javascript.preferences.quoteStyle": "single",
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "typescript.suggest.autoImports": true,
-  "typescript.preferences.quoteStyle": "single",
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  "tabnine.experimentalAutoImports": true,
-  "terminal.integrated.defaultProfile.linux": "zsh",
-  "html.completion.attributeDefaultValue": "singlequotes",
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
   "files.associations": {
@@ -46,12 +50,9 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "tailwindCSS.includeLanguages": {
-    "plaintext": "html"
-  },
   "tailwindCSS.experimental.classRegex": [
     [
-      "tv\\((([^()]*|\\([^()]*\\))*)\\)",
+      "tv\\(([^)]*)\\)",
       "[\"'`]([^\"'`]*).*?[\"'`]"
     ]
   ],
