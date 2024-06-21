@@ -20,6 +20,7 @@
   "git.enableSmartCommit": true,
   "gitlens.currentLine.enabled": false,
   "explorer.confirmDelete": false,
+  "explorer.confirmPasteNative": false,
   "explorer.confirmDragAndDrop": false,
   "extensions.ignoreRecommendations": true,
   "workbench.colorTheme": "Dracula",
