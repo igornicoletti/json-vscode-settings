@@ -23,13 +23,14 @@
   "explorer.confirmPasteNative": false,
   "explorer.confirmDragAndDrop": false,
   "extensions.ignoreRecommendations": true,
-  "workbench.colorTheme": "Dracula",
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "Dracula Theme",
   "workbench.startupEditor": "none",
   "workbench.editor.labelFormat": "short",
   "workbench.list.defaultFindMode": "filter",
   "workbench.editor.restoreViewState": false,
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.linux": "bash (2)",
   "css.completion.completePropertyWithSemicolon": false,
   "scss.completion.completePropertyWithSemicolon": false,
   "less.completion.completePropertyWithSemicolon": false,
@@ -39,13 +40,11 @@
   "javascript.preferences.quoteStyle": "single",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.preferences.jsxAttributeCompletionStyle": "braces",
-  "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
   "typescript.suggest.autoImports": true,
   "typescript.format.semicolons": "remove",
   "typescript.preferences.quoteStyle": "single",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.preferences.jsxAttributeCompletionStyle": "braces",
-  "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
   "eslint.format.enable": true,
   "eslint.lintTask.enable": true,
   "eslint.validate": [
@@ -83,10 +82,36 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
-  }
+  },
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    },
+    "bash (2)": {
+      "path": "/usr/bin/bash"
+    }
+  },
 }
