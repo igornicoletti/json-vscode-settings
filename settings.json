@@ -1,83 +1,6 @@
 {
-  "editor.tabSize": 2,
-  "editor.codeLens": false,
-  "editor.lineHeight": 1.75,
-  "editor.formatOnSave": true,
-  "editor.formatOnType": true,
-  "editor.formatOnPaste": true,
-  "editor.fontLigatures": true,
-  "editor.minimap.enabled": false,
-  "editor.renderLineHighlight": "all",
-  "editor.stickyScroll.enabled": false,
-  "editor.guides.bracketPairs": "active",
-  "editor.guides.bracketPairsHorizontal": false,
-  "editor.renderLineHighlightOnlyWhenFocus": true,
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "editor.quickSuggestions": {
-    "strings": "on"
-  },
-  "window.zoomLevel": -1,
-  "git.enableSmartCommit": true,
-  "gitlens.currentLine.enabled": false,
-  "explorer.confirmDelete": false,
-  "explorer.confirmPasteNative": false,
-  "explorer.confirmDragAndDrop": false,
-  "extensions.ignoreRecommendations": true,
-  "window.titleBarStyle": "custom",
-  "workbench.colorTheme": "Dracula Theme",
-  "workbench.startupEditor": "none",
-  "workbench.editor.labelFormat": "short",
-  "workbench.list.defaultFindMode": "filter",
-  "workbench.editor.restoreViewState": false,
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.defaultProfile.linux": "bash (2)",
-  "css.completion.completePropertyWithSemicolon": false,
-  "scss.completion.completePropertyWithSemicolon": false,
-  "less.completion.completePropertyWithSemicolon": false,
-  "html.completion.attributeDefaultValue": "singlequotes",
-  "javascript.suggest.autoImports": true,
-  "javascript.format.semicolons": "remove",
-  "javascript.preferences.quoteStyle": "single",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "javascript.preferences.jsxAttributeCompletionStyle": "braces",
-  "typescript.suggest.autoImports": true,
-  "typescript.format.semicolons": "remove",
-  "typescript.preferences.quoteStyle": "single",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "typescript.preferences.jsxAttributeCompletionStyle": "braces",
-  "eslint.format.enable": true,
-  "eslint.lintTask.enable": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact"
-  ],
-  "files.restoreUndoStack": false,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
-  "files.associations": {
-    "*.css": "tailwindcss",
-    "*.tsx": "typescriptreact"
-  },
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "tailwindCSS.experimental.classRegex": [
-    [
-      "tv\\(([^)]*)\\)",
-      "[\"'`]([^\"'`]*).*?[\"'`]"
-    ]
-  ],
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -85,33 +8,100 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
+  "css.completion.completePropertyWithSemicolon": false,
+  "editor.codeLens": false,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.lineHeight": 1.75,
+  "editor.minimap.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.renderLineHighlight": "all",
+  "editor.renderLineHighlightOnlyWhenFocus": true,
+  "editor.stickyScroll.enabled": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.tsx": "typescriptreact"
+  },
+  "files.restoreUndoStack": false,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.enableSmartCommit": true,
+  "gitlens.currentLine.enabled": false,
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "javascript.format.semicolons": "remove",
+  "javascript.preferences.jsxAttributeCompletionStyle": "braces",
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "less.completion.completePropertyWithSemicolon": false,
+  "scss.completion.completePropertyWithSemicolon": false,
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
+  ],
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.profiles.linux": {
     "bash": {
-      "path": "bash",
-      "icon": "terminal-bash"
+      "icon": "terminal-bash",
+      "path": "/usr/bin/bash"
     },
     "zsh": {
-      "path": "zsh"
-    },
-    "fish": {
-      "path": "fish"
-    },
-    "tmux": {
-      "path": "tmux",
-      "icon": "terminal-tmux"
-    },
-    "pwsh": {
-      "path": "pwsh",
-      "icon": "terminal-powershell"
-    },
-    "bash (2)": {
-      "path": "/usr/bin/bash"
+      "path": "/usr/bin/zsh"
     }
   },
+  "typescript.format.semicolons": "remove",
+  "typescript.preferences.jsxAttributeCompletionStyle": "braces",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.autoDetectColorScheme": true,
+  "window.commandCenter": false,
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.editor.restoreViewState": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.list.defaultFindMode": "filter",
+  "workbench.preferredDarkColorTheme": "Dracula Theme",
+  "workbench.preferredHighContrastColorTheme": "Dracula Theme",
+  "workbench.preferredHighContrastLightColorTheme": "Dracula Theme",
+  "workbench.preferredLightColorTheme": "Dracula Theme"
 }
