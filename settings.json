@@ -1,107 +1,65 @@
 {
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+  "editor.autoClosingBrackets": "always",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
   },
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "css.completion.completePropertyWithSemicolon": false,
   "editor.codeLens": false,
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.find.addExtraSpaceOnTop": false,
   "editor.fontLigatures": true,
-  "editor.fontSize": 12,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "editor.guides.bracketPairs": "active",
-  "editor.guides.bracketPairsHorizontal": false,
-  "editor.lineHeight": 1.75,
+  "editor.guides.bracketPairsHorizontal": "active",
   "editor.minimap.enabled": false,
-  "editor.mouseWheelZoom": true,
   "editor.quickSuggestions": {
-    "strings": "on"
+    "comments": false,
+    "other": true,
+    "strings": "inline"
   },
-  "editor.renderLineHighlight": "all",
-  "editor.renderLineHighlightOnlyWhenFocus": true,
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "all",
+  "editor.smoothScrolling": true,
+  "editor.snippetSuggestions": "top",
   "editor.stickyScroll.enabled": false,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
+  "editor.wordWrap": "on",
   "eslint.format.enable": true,
   "eslint.lintTask.enable": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact"
-  ],
+  "eslint.quiet": true,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmPasteNative": false,
   "extensions.ignoreRecommendations": true,
   "files.associations": {
-    "*.css": "tailwindcss",
-    "*.tsx": "typescriptreact"
+    "*.css": "tailwindcss"
   },
-  "files.restoreUndoStack": false,
+  "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "git.enableSmartCommit": true,
   "gitlens.currentLine.enabled": false,
   "html.completion.attributeDefaultValue": "singlequotes",
-  "javascript.format.semicolons": "remove",
-  "javascript.preferences.jsxAttributeCompletionStyle": "braces",
+  "security.workspace.trust.untrustedFiles": "open",
   "javascript.preferences.quoteStyle": "single",
-  "javascript.suggest.autoImports": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "less.completion.completePropertyWithSemicolon": false,
-  "scss.completion.completePropertyWithSemicolon": false,
+  "tailwindCSS.emmetCompletions": true,
   "tailwindCSS.experimental.classRegex": [
-    [
-      "tv\\(([^)]*)\\)",
-      "[\"'`]([^\"'`]*).*?[\"'`]"
-    ]
+    "tv\\(([^)]*)\\)",
+    "[\"'`]([^\"'`]*).*?[\"'`]"
   ],
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.profiles.linux": {
-    "bash": {
-      "icon": "terminal-bash",
-      "path": "/usr/bin/bash"
-    },
     "zsh": {
       "path": "/usr/bin/zsh"
     }
   },
-  "typescript.format.semicolons": "remove",
-  "typescript.preferences.jsxAttributeCompletionStyle": "braces",
   "typescript.preferences.quoteStyle": "single",
-  "typescript.suggest.autoImports": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "window.autoDetectColorScheme": true,
-  "window.commandCenter": false,
+  "workbench.colorCustomizations": {
+    "editorBracketMatch.border": "#bd93f9"
+  },
   "workbench.colorTheme": "Dracula Theme",
-  "workbench.editor.restoreViewState": false,
-  "workbench.layoutControl.enabled": false,
-  "workbench.list.defaultFindMode": "filter",
-  "workbench.preferredDarkColorTheme": "Dracula Theme",
-  "workbench.preferredHighContrastColorTheme": "Dracula Theme",
-  "workbench.preferredHighContrastLightColorTheme": "Dracula Theme",
-  "workbench.preferredLightColorTheme": "Dracula Theme"
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.labelFormat": "short",
 }
