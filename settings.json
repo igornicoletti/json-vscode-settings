@@ -1,65 +1,112 @@
 {
-  "editor.autoClosingBrackets": "always",
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "css.completion.completePropertyWithSemicolon": false,
   "editor.codeLens": false,
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.find.addExtraSpaceOnTop": false,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.fontLigatures": true,
+  "editor.fontSize": 12,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "editor.guides.bracketPairs": "active",
-  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.hover.delay": 500,
+  "editor.lineHeight": 1.75,
   "editor.minimap.enabled": false,
+  "editor.mouseWheelZoom": true,
   "editor.quickSuggestions": {
-    "comments": false,
-    "other": true,
-    "strings": "inline"
+    "strings": "on"
   },
-  "editor.renderLineHighlight": "none",
-  "editor.renderWhitespace": "all",
-  "editor.smoothScrolling": true,
-  "editor.snippetSuggestions": "top",
+  "editor.renderLineHighlight": "all",
+  "editor.renderLineHighlightOnlyWhenFocus": true,
   "editor.stickyScroll.enabled": false,
-  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
   "eslint.format.enable": true,
   "eslint.lintTask.enable": true,
-  "eslint.quiet": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmPasteNative": false,
   "extensions.ignoreRecommendations": true,
   "files.associations": {
-    "*.css": "tailwindcss"
+    "*.css": "tailwindcss",
+    "*.tsx": "typescriptreact"
   },
-  "files.insertFinalNewline": true,
+  "files.restoreUndoStack": false,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "git.enableSmartCommit": true,
   "gitlens.currentLine.enabled": false,
   "html.completion.attributeDefaultValue": "singlequotes",
-  "security.workspace.trust.untrustedFiles": "open",
+  "javascript.format.semicolons": "remove",
+  "javascript.preferences.jsxAttributeCompletionStyle": "braces",
   "javascript.preferences.quoteStyle": "single",
-  "tailwindCSS.emmetCompletions": true,
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "less.completion.completePropertyWithSemicolon": false,
+  "scss.completion.completePropertyWithSemicolon": false,
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.untrustedFiles": "open",
   "tailwindCSS.experimental.classRegex": [
-    "tv\\(([^)]*)\\)",
-    "[\"'`]([^\"'`]*).*?[\"'`]"
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
   ],
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.profiles.linux": {
+    "bash": {
+      "icon": "terminal-bash",
+      "path": "/usr/bin/bash"
+    },
     "zsh": {
       "path": "/usr/bin/zsh"
     }
   },
+  "typescript.format.semicolons": "remove",
+  "typescript.preferences.jsxAttributeCompletionStyle": "braces",
   "typescript.preferences.quoteStyle": "single",
-  "workbench.colorCustomizations": {
-    "editorBracketMatch.border": "#bd93f9"
-  },
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.autoDetectColorScheme": true,
+  "window.commandCenter": false,
   "workbench.colorTheme": "Dracula Theme",
-  "workbench.editor.closeOnFileDelete": true,
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.labelFormat": "short",
+  "workbench.editor.restoreViewState": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.list.defaultFindMode": "filter",
+  "workbench.preferredDarkColorTheme": "Dracula Theme",
+  "workbench.preferredHighContrastColorTheme": "Dracula Theme",
+  "workbench.preferredHighContrastLightColorTheme": "Dracula Theme",
+  "workbench.preferredLightColorTheme": "Dracula Theme"
 }
