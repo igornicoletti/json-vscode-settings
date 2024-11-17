@@ -1,4 +1,7 @@
 {
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
@@ -20,18 +23,21 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "css.completion.completePropertyWithSemicolon": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
   "editor.codeLens": false,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.fontLigatures": true,
   "editor.fontSize": 12,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
   "editor.formatOnType": true,
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": false,
-  "editor.hover.delay": 500,
-  "editor.lineHeight": 1.75,
+  "editor.insertSpaces": true,
+  "editor.lineHeight": 1.625,
   "editor.minimap.enabled": false,
   "editor.mouseWheelZoom": true,
   "editor.quickSuggestions": {
@@ -40,6 +46,7 @@
   "editor.renderLineHighlight": "all",
   "editor.renderLineHighlightOnlyWhenFocus": true,
   "editor.stickyScroll.enabled": false,
+  "editor.tabSize": 2,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -60,6 +67,15 @@
     "*.css": "tailwindcss",
     "*.tsx": "typescriptreact"
   },
+  "files.exclude": {
+    "**\/CVS": true,
+    "**\/.DS_Store": true,
+    "**\/.git": true,
+    "**\/.hg": true,
+    "**\/.svn": true,
+    ".vscode": true
+    // "node_modules": true
+  },
   "files.restoreUndoStack": false,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
@@ -72,7 +88,6 @@
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "less.completion.completePropertyWithSemicolon": false,
-  "scss.completion.completePropertyWithSemicolon": false,
   "security.workspace.trust.banner": "never",
   "security.workspace.trust.enabled": false,
   "security.workspace.trust.startupPrompt": "never",
@@ -81,7 +96,8 @@
     [
       "tv\\(([^)]*)\\)",
       "[\"'`]([^\"'`]*).*?[\"'`]"
-    ]
+    ],
+    "class:\\s*?[\"'`]([^\"'`]*).*?,"
   ],
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.defaultProfile.linux": "zsh",
@@ -108,5 +124,5 @@
   "workbench.preferredDarkColorTheme": "Dracula Theme",
   "workbench.preferredHighContrastColorTheme": "Dracula Theme",
   "workbench.preferredHighContrastLightColorTheme": "Dracula Theme",
-  "workbench.preferredLightColorTheme": "Dracula Theme"
+  "workbench.preferredLightColorTheme": "Dracula Theme",
 }
