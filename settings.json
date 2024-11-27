@@ -1,4 +1,101 @@
 {
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.lineHeight": 22,
+  "editor.minimap.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.renderLineHighlight": "none",
+  "editor.stickyScroll.enabled": false,
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "mdx": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "mdx": "jsx"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.format.enable": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    ".env": ".env*",
+    ".env.local": ".env*",
+    "package.json": ".eslint*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*"
+  },
+  "explorer.sortOrder": "foldersNestsFiles",
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    ".dev.vars": "dotenv",
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css"
+  },
+  "files.exclude": {
+    "**\/CVS": true,
+    "**\/.DS_Store": true,
+    "**\/.hg": true,
+    "**\/.svn": true,
+    "**\/.git": true,
+    ".vscode": true
+    // "node_modules": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always",
+  "gitlens.advanced.messages": {
+    "suppressIntegrationRequestTimedOutWarning": true
+  },
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "security.promptForLocalFileProtocolHandling": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ],
+    "class:\\s*?[\"'`]([^\"'`]*).*?,"
+  ],
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.showExitAlert": false,
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.autoDetectColorScheme": true,
+  "window.commandCenter": false,
+  "window.titleBarStyle": "native",
+  "workbench.editor.labelFormat": "short",
+  "workbench.layoutControl.enabled": false,
+  "workbench.preferredDarkColorTheme": "Dracula Theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": false,
+  "workbench.tree.enableStickyScroll": false,
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
@@ -22,107 +119,5 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
-  "editor.codeLens": false,
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 12,
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnSaveMode": "file",
-  "editor.formatOnType": true,
-  "editor.guides.bracketPairs": "active",
-  "editor.guides.bracketPairsHorizontal": false,
-  "editor.insertSpaces": true,
-  "editor.lineHeight": 1.625,
-  "editor.minimap.enabled": false,
-  "editor.mouseWheelZoom": true,
-  "editor.quickSuggestions": {
-    "strings": "on"
-  },
-  "editor.renderLineHighlight": "all",
-  "editor.renderLineHighlightOnlyWhenFocus": true,
-  "editor.stickyScroll.enabled": false,
-  "editor.tabSize": 2,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "eslint.format.enable": true,
-  "eslint.lintTask.enable": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact"
-  ],
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmPasteNative": false,
-  "extensions.ignoreRecommendations": true,
-  "files.associations": {
-    "*.css": "tailwindcss",
-    "*.tsx": "typescriptreact"
-  },
-  "files.exclude": {
-    "**\/CVS": true,
-    "**\/.DS_Store": true,
-    "**\/.git": true,
-    "**\/.hg": true,
-    "**\/.svn": true,
-    ".vscode": true
-    // "node_modules": true
-  },
-  "files.restoreUndoStack": false,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
-  "git.enableSmartCommit": true,
-  "gitlens.currentLine.enabled": false,
-  "html.completion.attributeDefaultValue": "singlequotes",
-  "javascript.format.semicolons": "remove",
-  "javascript.preferences.jsxAttributeCompletionStyle": "braces",
-  "javascript.preferences.quoteStyle": "single",
-  "javascript.suggest.autoImports": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "less.completion.completePropertyWithSemicolon": false,
-  "security.workspace.trust.banner": "never",
-  "security.workspace.trust.enabled": false,
-  "security.workspace.trust.startupPrompt": "never",
-  "security.workspace.trust.untrustedFiles": "open",
-  "tailwindCSS.experimental.classRegex": [
-    [
-      "tv\\(([^)]*)\\)",
-      "[\"'`]([^\"'`]*).*?[\"'`]"
-    ],
-    "class:\\s*?[\"'`]([^\"'`]*).*?,"
-  ],
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.defaultProfile.linux": "zsh",
-  "terminal.integrated.profiles.linux": {
-    "bash": {
-      "icon": "terminal-bash",
-      "path": "/usr/bin/bash"
-    },
-    "zsh": {
-      "path": "/usr/bin/zsh"
-    }
-  },
-  "typescript.format.semicolons": "remove",
-  "typescript.preferences.jsxAttributeCompletionStyle": "braces",
-  "typescript.preferences.quoteStyle": "single",
-  "typescript.suggest.autoImports": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "window.autoDetectColorScheme": true,
-  "window.commandCenter": false,
-  "workbench.colorTheme": "Dracula Theme",
-  "workbench.editor.restoreViewState": false,
-  "workbench.layoutControl.enabled": false,
-  "workbench.list.defaultFindMode": "filter",
-  "workbench.preferredDarkColorTheme": "Dracula Theme",
-  "workbench.preferredHighContrastColorTheme": "Dracula Theme",
-  "workbench.preferredHighContrastLightColorTheme": "Dracula Theme",
-  "workbench.preferredLightColorTheme": "Dracula Theme"
+  }
 }
