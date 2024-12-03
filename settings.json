@@ -1,4 +1,5 @@
 {
+  "autoimport.useSemiColon": false,
   "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
@@ -47,10 +48,17 @@
   "explorer.sortOrder": "foldersNestsFiles",
   "extensions.ignoreRecommendations": true,
   "files.associations": {
-    ".dev.vars": "dotenv",
-    ".env.*": "dotenv",
+    ".env": "dotenv",
     ".prettierrc": "json",
-    "*.css": "css"
+    "*.css": "css",
+    "*.html": "html",
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.json": "json",
+    "*.sass": "sass",
+    "*.scss": "scss",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact"
   },
   "files.exclude": {
     "**\/CVS": true,
@@ -59,7 +67,6 @@
     "**\/.svn": true,
     "**\/.git": true,
     ".vscode": true
-    // "node_modules": true
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -71,6 +78,7 @@
   },
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.recentChange.enabled": false,
+  "javascript.format.semicolons": "remove",
   "javascript.preferences.quoteStyle": "single",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "security.promptForLocalFileProtocolHandling": false,
@@ -83,19 +91,13 @@
     "class:\\s*?[\"'`]([^\"'`]*).*?,"
   ],
   "terminal.integrated.defaultProfile.linux": "zsh",
-  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.gpuAcceleration": "on",
+  "typescript.format.semicolons": "remove",
   "typescript.preferences.quoteStyle": "single",
-  "typescript.preferences.preferTypeOnlyAutoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.autoDetectColorScheme": true,
-  "window.commandCenter": false,
-  "window.titleBarStyle": "native",
   "workbench.editor.labelFormat": "short",
-  "workbench.layoutControl.enabled": false,
   "workbench.preferredDarkColorTheme": "Dracula Theme",
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": false,
-  "workbench.tree.enableStickyScroll": false,
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
