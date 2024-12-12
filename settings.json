@@ -12,7 +12,10 @@
   "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": false,
   "editor.lineHeight": 22,
+  "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "editor.occurrencesHighlight": "off",
   "editor.parameterHints.enabled": false,
   "editor.quickSuggestions": {
     "strings": "on"
@@ -50,7 +53,7 @@
   "files.associations": {
     ".env": "dotenv",
     ".prettierrc": "json",
-    "*.css": "css",
+    "*.css": "tailwindcss",
     "*.html": "html",
     "*.js": "javascript",
     "*.jsx": "javascriptreact",
